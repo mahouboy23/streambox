@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>StreamBox</title>
+    <link rel="stylesheet" href="Style/Style.css">
 </head>
+
 <body>
 
     <header>
@@ -12,7 +14,7 @@
     </header>
 
     <nav>
-        <ul>
+        <ul id="nav-list">
             <li><a href="/">Home</a></li>
             <li><a href="#">Shows</a></li>
             <li><a href="#">Movies</a></li>
@@ -21,30 +23,35 @@
     </nav>
 
     <main>
+
         <section id="hero">
             <h2>Welcome to StreamBox</h2>
             <p>Discover trending shows and new releases.</p>
+
+            <a href="#" class="btn-primary">Browse Shows</a>
         </section>
 
         <section id="featured">
-            <h2>Featured Shows</h2>
 
-            <article>
+            <h2 class="section-title">Featured Shows</h2>
+
+            <article class="card">
                 <h3>Show 1</h3>
-                <p>Short description of Show 1.</p>
+                <p>Drama and adventure series.</p>
             </article>
 
-            <article>
+            <article class="card">
                 <h3>Show 2</h3>
-                <p>Short description of Show 2.</p>
+                <p>Comedy show for the whole family.</p>
             </article>
 
-            <article>
+            <article class="card">
                 <h3>Show 3</h3>
-                <p>Short description of Show 3.</p>
+                <p>Thrilling mystery and suspense.</p>
             </article>
 
         </section>
+
     </main>
 
     <footer>

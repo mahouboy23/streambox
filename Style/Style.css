@@ -83,8 +83,12 @@ nav a:hover {
     gap: 1rem;
 }
 
+#featured > section {
+    margin-bottom: 2rem;
+}
+
 .section-title {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .card {

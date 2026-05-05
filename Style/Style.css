@@ -77,6 +77,11 @@ nav a:hover {
     padding: 2rem;
 }
 
+#featured section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
 .section-title {
     margin-bottom: 1rem;
 }

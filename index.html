@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="Style/Style.css">
 </head>
 
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navList = document.querySelector("#nav-list");
+
+    hamburger.addEventListener("click", () => {
+        navList.style.display =
+            navList.style.display === "flex" ? "none" : "flex";
+    });
+</script>
+
 <body>
 
     <header>
@@ -15,6 +25,7 @@
     </header>
 
     <nav>
+        <button class="hamburger">☰</button>
         <ul id="nav-list">
             <li><a href="/">Home</a></li>
             <li><a href="#">Shows</a></li>

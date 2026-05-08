@@ -37,9 +37,19 @@ nav {
 }
 
 #nav-list {
-    display: flex;
+    display: none;
+    flex-direction: column;
     list-style: none;
     gap: 1.5rem;
+}
+
+.hamburger {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 nav a {
@@ -59,7 +69,7 @@ nav a:hover {
 }
 
 #hero h2 {
-    font-size: 2.5rem;
+    font-size: calc(1.5rem + 4vw);
     margin-bottom: 1rem;
 }
 
@@ -134,32 +144,18 @@ footer {
     margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 40em) {
 
-    header {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
+    .hamburger {
+        display: none;
     }
 
     #nav-list {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-direction: row;
     }
 
-    #hero {
-        padding: 3rem 1rem;
-    }
-
-    #hero h2 {
-        font-size: 2rem;
-    }
-
-    #featured {
-        padding: 1rem;
-    }
-
-    .card {
-        padding: 0.8rem;
+    header {
+        flex-direction: row;
     }
 }

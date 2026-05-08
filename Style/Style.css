@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+img,
+picture,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-color: #0F172A;
     color: #F8FAFC;

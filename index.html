@@ -7,16 +7,6 @@
     <link rel="stylesheet" href="Style/Style.css">
 </head>
 
-<script>
-    const hamburger = document.querySelector(".hamburger");
-    const navList = document.querySelector("#nav-list");
-
-    hamburger.addEventListener("click", () => {
-        navList.style.display =
-            navList.style.display === "flex" ? "none" : "flex";
-    });
-</script>
-
 <body>
 
     <header>
@@ -105,6 +95,16 @@
     <footer>
         <p>© 2026 StreamBox</p>
     </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navList = document.querySelector("#nav-list");
+
+        hamburger.addEventListener("click", () => {
+            navList.style.display =
+                navList.style.display === "flex" ? "none" : "flex";
+        });
+    </script>
 
 </body>
 </html>

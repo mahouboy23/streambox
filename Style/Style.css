@@ -159,3 +159,9 @@ footer {
         flex-direction: row;
     }
 }
+
+@media screen and (max-width: 60em) {
+    #tagline {
+        display: none;
+    }
+}

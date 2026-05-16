@@ -5,13 +5,14 @@
     <title>StreamBox</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/Style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
 
     <header>
         <h1>StreamBox</h1>
-        <p>Your place to watch great shows anytime.</p>
+        <p id="tagline">Your place to watch great shows anytime.</p>
     </header>
 
     <nav>
@@ -95,16 +96,6 @@
     <footer>
         <p>© 2026 StreamBox</p>
     </footer>
-
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navList = document.querySelector("#nav-list");
-
-        hamburger.addEventListener("click", () => {
-            navList.style.display =
-                navList.style.display === "flex" ? "none" : "flex";
-        });
-    </script>
 
 </body>
 </html>
